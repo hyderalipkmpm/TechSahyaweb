@@ -272,6 +272,23 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <!-- ZOHO CRM tracking-->
+        <script type = "text/javascript" id = "zsiqchat">
+	        var $zoho = $zoho || {};
+	        $zoho.salesiq = $zoho.salesiq || {
+		    widgetcode: "siq068a93efe604553f905e2997cc7006a7bf71bf295d2ee68982534be142f8ede1",
+		    values: {},
+		    ready: function(){}
+	        };
+	        var d = document;
+	        s = d.createElement("script");
+	        s.type = "text/javascript";
+	        s.id = "zsiqscript";
+	        s.defer = true;
+	        s.src = "https://salesiq.zoho.com/widget";
+	        t = d.getElementsByTagName("script")[0];
+	        t.parentNode.insertBefore(s, t);
+        </script>
     </body>
 
 </html>
